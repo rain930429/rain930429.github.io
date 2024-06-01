@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文思豆腐</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #ffffff;
+            color: rgb(255, 228, 181);
+            padding: 10px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 88px; 
+            margin-top: 0;
+        }
+        .header img {
+            vertical-align: middle; 
+        }
+        .navbar {
+            background-color: #f2f2f2;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar a {
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 25px;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: rgb(0, 0, 0);
+        }
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr; 
+            padding: 10px 100px 15px 300px;
+            justify-content: center;
+        }
+        .content .column {
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        .content .column h2 {
+            margin-bottom: 5px; 
+        }
+        .content .column h3 {
+            margin-top: 5px; 
+            margin-bottom: 5px; 
+        }
+        .content .column p {
+            margin-top: 5px; 
+        }
+        .content .column img {
+            max-width: 100%;
+            height: auto;
+        }
+        ruby {
+            font-size: smaller; 
+            line-height: 0.2; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <img src="dofu.png" alt="dofu"><h1>文思豆腐</h1>
+</div>
+
+<div class="navbar">
+  <a href="#home">華文雜誌</a>
+  <a href="#story">華文童書</a>
+  <a href="#travel">旅遊小冊</a>
+  <a href="#other">其他</a>
+  <a href="#language">Language</a>
+</div>
+
+<div class="content">
+    <div class="column">
+      <h2>公告</h2>
+      <h3><ruby> gōng gào</ruby></h3>
+      <p>這是</p>
+    </div>
+    <div class="column">
+      <h2>活動</h2>
+      <h3><ruby> huó dòng</ruby></h3>
+      <p>這是</p>
+    </div>
+  </div>
+
+</body>
+</html>
